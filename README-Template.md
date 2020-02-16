@@ -1,6 +1,8 @@
-# Project Title
+# DeveloperWeek 2020 Hackathon Challenge
 
-One Paragraph of project description goes here
+As a team we are interested in using the HERE API to produce a real-time interactive application to simulate traffic lights based on data. The Map API is to determine coordinates of longitude and latitude and analyze the traffic flow on each street. For this proof of concept, we used sixteen points, on a four by four grid in a small sample map of downtown San Francisco. To determine the color of the light, the current traffic flow value is used as a baseline, with a negative flow indicating red and a positive flow indicating green.
+
+For our implementation of our application, React Framework with Javascript was used with an Reinforcement Learning framework using Q-learning. Our data is parsed from a JSON format and passed on to our model to generate a dynamic graphical representation of traffic four-way light. The goal for this work is for the user to have a better representation of traffic queues and wait times, and optimize their travel destination based on an optimizing their commute time by selecting the choice with minimum. For example, by knowing the total time a driver experiences a green or red light, one can optimize their route to take in consideration of these variables. Current routing and navigation systems do not account for traffic lights in causing congestion and user delay. 
 
 ## Getting Started
 
@@ -70,19 +72,21 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-## Authors
+## Contributors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+ **Sachin Shastei** - ML Engineer
+ **Taylor Knulp-McDonna** - Data Engineer
+ **Bruno Tapia Sierra** - Front end Developer
+ **Chang Seong Kang** Front End Developer
+  **Sasha Tooryani** Devops Engineer
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License 
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
+* To DeveloperWeek staff and Hackathon volunteers, also Galvanize for allowing to use workspace
+* Sponors Yubikeys, Agora, HERE for mentoring and documentation
 * etc
 

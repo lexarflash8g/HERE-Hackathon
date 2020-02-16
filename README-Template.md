@@ -5,7 +5,7 @@ As a team we are interested in using the HERE API to produce a real-time interac
 For our implementation of our application, we used React Framework with Javascript  Reinforcement Learning framework using Q-learning. Our data is parsed from a JSON format and passed on to our model to generate a dynamic graphical representation of traffic four-way light. The goal for this work is for the user to have a better representation of traffic queues and wait times, and optimize their travel destination based on an optimizing their commute time by selecting the choice with minimum. For example, by knowing the total time a driver experiences a green or red light, one can optimize their route to take in consideration of these variables. Current routing and navigation systems do not account for traffic lights in causing congestion and user delay. 
 
 # Architectural Overview
-![Test Image 3](/diagram2.jpg)
+![Test Image 3](/diagram3.jpg)
 
 ## Getting Started
 
@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Our proof of concept simply makes use of a localhost, we also plan on creating an instance running as a webapplication on a hosted environment using Heroku.
 
 ```
 Give examples
@@ -21,21 +21,7 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
@@ -63,9 +49,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* React/Node.js - The web framework used for interactivity with the API 
+* Visual Studio Code  - IDE 
+* HERE Maps API  - Used the REST API to send requests for functionality of our application
 
 ## Contributing
 

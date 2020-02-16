@@ -5,7 +5,7 @@ As a team we are interested in using the HERE API to produce a real-time interac
 For our implementation of our application, React Framework with Javascript was used with an Reinforcement Learning framework using Q-learning. Our data is parsed from a JSON format and passed on to our model to generate a dynamic graphical representation of traffic four-way light. The goal for this work is for the user to have a better representation of traffic queues and wait times, and optimize their travel destination based on an optimizing their commute time by selecting the choice with minimum. For example, by knowing the total time a driver experiences a green or red light, one can optimize their route to take in consideration of these variables. Current routing and navigation systems do not account for traffic lights in causing congestion and user delay. 
 
 # Architectural Overview
-![Test Image 3](/diagram.jpeg)
+![Test Image 3](/diagram.jpg)
 
 ## Getting Started
 
